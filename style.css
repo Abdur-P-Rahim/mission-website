@@ -25,7 +25,7 @@ h1{
 p{
      color: dimgray;
 }
-.explore-btn{
+.btn{
      background-color: lightsalmon;
      border: none;
      padding: 10px 25px;
@@ -77,3 +77,20 @@ p{
 .goals img{
      width: 50%;
 }
+#development-area{
+     display: flex;
+     justify-content: space-around;
+     text-align: justify;
+    
+}
+#global-community{
+     display: flex;
+     text-align: justify;
+     
+     
+}
+
+
+
+
+
