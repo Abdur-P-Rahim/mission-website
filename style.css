@@ -89,6 +89,61 @@ p{
      
      
 }
+.contact-section{
+     background-color: lightgray;
+     width: 100%;
+     height: 350px;
+     margin-bottom: 20px;
+    
+}
+.contact-section h3{
+     text-align: center;
+     padding: 20px 0;
+     color: darkslateblue;
+     align-items: center;
+     
+
+}
+.contact-form{
+     max-width: 600px;
+     margin: auto 0;
+     padding: 0 30%;
+     overflow: hidden;
+      
+}
+.contact-form-text{
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+     margin: 16px 0;
+     border: none;
+     background: white;
+     outline: none;
+     color: black;
+     font-size: 13px;
+     padding: 5px 10px;
+     
+}
+.contact-form-btn{
+     background-color: lightsalmon;
+     border: none;
+     padding: 5px 8px;
+     border-radius: 5px;
+     cursor: pointer;
+    
+}
+footer{
+     
+     text-align: center;
+     padding: 20px 20px;
+     margin: 20px 20px;
+}
+
+footer p{
+     color: black;
+     font-size: 12px;
+     font-family: fantasy;
+}
 
 
 
