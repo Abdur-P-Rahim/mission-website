@@ -1,42 +1,79 @@
 body{
      margin: 0;
-     padding: 0;
-     font-family: 'Poppins', sans-serif;
-}
-.first-section{
-     margin-top: 40px;
-}
-#start-mission{
-      font-family: 'Luxurious Roman', cursive;
-      border-left:2px solid lightsalmon ;
-      padding-left: 10px;
-      font-size: 45px;
-      
-}
-p{
-     text-align: justify;
-     font-size: 15px;
-     color: rgb(58, 55, 55);
      
+     font-family: sans-serif;
 }
-
+#h1-border{
+     border-left: 2px solid lightsalmon;
+     padding-left: 8px;
+}
+#top-banner{
+     display: flex;
+}
 .half-width{
      width: 40%;
      float: left;
-     margin-left: 5%;
-     padding-left: 3%;
+     margin: 5%;
+     padding: 2%;
 }
 .half-width img{
-     width: 85%;
-
+     width: 100%;
+}
+h1{
+     font-size: 40px;
+}
+p{
+     color: dimgray;
 }
 .explore-btn{
      background-color: lightsalmon;
      border: none;
-     padding: 10px 22px;
+     padding: 10px 25px;
      border-radius: 5px;
-     color: black;
-     margin-top: 5px;
-     margin-bottom: 10px;
      cursor: pointer;
+}
+#mission-area{
+     margin-bottom: 50px;
+     padding: 15px;
+}
+.year{
+     text-align:center ;
+     color: rgb(3, 3, 37);
+     
+
+}
+.description{
+     display: flex;
+     justify-content: space-around;
+}
+.mission{
+     width: 250px;
+     height: 280px;
+     background-color: lightcyan;
+     border-radius: 10px;
+     padding-left: 10px;
+     
+}
+.mission img{
+     width: 50%;
+}
+.vission{
+     width: 250px;
+     height: 280px;
+     background-color: lightpink;
+     border-radius: 10px;
+     padding-left: 10px;
+}
+.vission img{
+     width: 50%;
+}
+.goals{
+     width: 250px;
+     height: 280px;
+     background-color: lightsteelblue;
+     border-radius: 10px;
+     padding-left: 10px;
+}
+.goals img{
+     width: 50%;
 }
